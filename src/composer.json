@@ -1,0 +1,13 @@
+{
+    "name": "aula/mvc",
+    "description": "aprendendo padrao mvc",
+    "require": {
+        "phpmailer/phpmailer": "^6.1"
+    },
+    "autoload" : {
+        "psr-4": {
+            "App\\":"../app/",
+            "Src\\":"../src/"
+        }
+    }
+}
