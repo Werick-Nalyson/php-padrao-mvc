@@ -1,11 +1,12 @@
 <?php
 
+
 namespace App\Controller;
 
-class ControllerSitemap {
+class ControllerHome{
     public function __construct()
     {
-        echo "Controller do sitemap!";
+        echo "Você está na pagina inicial!";
     }
 }
 

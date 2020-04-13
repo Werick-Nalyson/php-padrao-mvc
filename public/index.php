@@ -4,16 +4,18 @@
     require_once("../config/config.php");
     require_once("../src/vendor/autoload.php");
 
-    use Src\Classes\ClassRoutes;
+    $Dispatch = new App\Dispatch();
 
-    class Teste extends ClassRoutes {
-        public function __construct() {
-            $v=$this->getRota();
-            var_dump($v);
-        }
-    }
+    // use Src\Classes\ClassRoutes;
 
-    $new=new Teste();
+    // class Teste extends ClassRoutes {
+    //     public function __construct() {
+    //         $v=$this->getRota();
+    //         var_dump($v);
+    //     }
+    // }
+
+    // $new=new Teste();
 
 
 

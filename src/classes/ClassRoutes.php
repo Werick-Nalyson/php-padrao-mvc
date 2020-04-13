@@ -27,7 +27,7 @@ class ClassRoutes {
                 return "ControllerHome";
             }
         } else {
-            return "ControllerHomee";
+            return "Controller404";
         }
     }
 }
